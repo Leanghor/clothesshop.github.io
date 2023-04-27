@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    float: flex;
+    background-color: red;
+}
+.card-box {
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 350px;
+    width: 30%;
+    background-color: black;
+}
+.card-box .card-products {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.card-box .card-products img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.card-box .card-text{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #08eb4c;
+}
+.card-text p {
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: white;
+}
+.card-text h3{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: white
+}
+.card-text h6{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 10px;
+    color:white
+}
+
+@media (max-width: 1399.98px){
+}
+@media (max-width: 1199.98px){
+    .card-box .card-products {
+        /* float: left; */
+        width: 100%;
+        height: 70%;
+    }
+    .card-box .card-text {
+        float: left;
+        width: 100%;
+        height: 30%;
+        background-color: #08eb4c;
+    }
+    .card-text p {
+        margin-left: 10px;
+        margin-top: 5px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        margin-bottom: 0;
+        color: white;
+    }
+    .card-text h3 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 0;
+        color: white;
+    }
+    .card-text h6 {
+        font-size: 20px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        margin-left: 10px;
+        color: white;
+    }
+}   
+@media (max-width: 991.98px){
+    .card-text p {
+        margin-left: 10px;
+        margin-top: 15px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        margin-bottom: 0;
+        color: white;
+    }
+    .card-text h3 {
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 0;
+        color: white;
+    }
+    .card-text h6 {
+        font-size: 15px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        margin-left: 10px;
+        color: white;
+    }
+}
+@media (max-width: 767.98px){
+    .card-box {
+        float: left;
+        margin-left: 15px;
+        margin-top: 15px;
+        height: 350px;
+        width: 45%;
+        background-color: black;
+    }
+}
+@media (max-width: 575.98px){
+    .card-box {
+        float: left;
+        margin-left: 15px;
+        margin-top: 15px;
+        height: 350px;
+        width: 100%;
+        background-color: black;
+    }
+    .card-text p {
+        margin-left: 30px;
+        margin-top: 15px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        margin-bottom: 0;
+        color: white;
+    }
+    .card-text h3 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-bottom: 0;
+        color: white;
+    }
+    .card-text h6 {
+        font-size: 20px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        margin-left: 30px;
+        color: white;
+    }
+}
